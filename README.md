@@ -1,112 +1,45 @@
-# 💼 Skills
+# Agent Skills
 
-> 个人技能清单 / Personal Skills Portfolio
+A collection of agent skills for Laravel API development.
 
----
+## Skills
 
-## 🧑‍💻 编程语言 / Programming Languages
+### Laravel API Development
 
-| 技能 | 熟练度 | 等级 |
-|------|--------|------|
-| Python | ████████████████████ | ⭐⭐⭐⭐⭐ |
-| JavaScript / TypeScript | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Go | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| Java | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| SQL | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Shell / Bash | ████████████░░░░░░░░ | ⭐⭐⭐ |
+- **laravel-api** — Build RESTful APIs with Laravel 11+ using Controller → Service → Model architecture, FormRequest validation, API Resources, and PSR-12 coding standards.
 
----
+  **Install with Claude Code:**
+  ```
+  npx skills@latest add tanghengzhi/skills/laravel-api
+  ```
 
-## 🌐 前端 / Frontend
+  **Install with GitHub Copilot:**
+  ```bash
+  mkdir -p .github
+  curl -o .github/copilot-instructions.md \
+    https://raw.githubusercontent.com/tanghengzhi/skills/main/.github/copilot-instructions.md
+  ```
 
-| 技能 | 熟练度 | 等级 |
-|------|--------|------|
-| React | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Vue.js | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| HTML5 / CSS3 | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Tailwind CSS | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| Next.js | ████████████░░░░░░░░ | ⭐⭐⭐ |
+## Usage
 
----
+### Claude Code
 
-## ⚙️ 后端 / Backend
+Install a skill into your project using the `npx skills` CLI:
 
-| 技能 | 熟练度 | 等级 |
-|------|--------|------|
-| Node.js | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Django / Flask | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| FastAPI | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| Spring Boot | ████████░░░░░░░░░░░░ | ⭐⭐ |
-| RESTful API | ████████████████████ | ⭐⭐⭐⭐⭐ |
-| GraphQL | ████████████░░░░░░░░ | ⭐⭐⭐ |
+```bash
+npx skills@latest add tanghengzhi/skills/laravel-api
+```
 
----
+This downloads the skill files into `.claude/skills/laravel-api/` in your project. Claude Code automatically discovers and loads skills from this directory based on the task context described in each skill's `description` frontmatter field.
 
-## 🗄️ 数据库 / Databases
+### GitHub Copilot
 
-| 技能 | 熟练度 | 等级 |
-|------|--------|------|
-| MySQL | ████████████████████ | ⭐⭐⭐⭐⭐ |
-| PostgreSQL | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Redis | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| MongoDB | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| Elasticsearch | ████████████░░░░░░░░ | ⭐⭐⭐ |
+GitHub Copilot reads `.github/copilot-instructions.md` automatically. Copy the file to your project:
 
----
+```bash
+mkdir -p .github
+curl -o .github/copilot-instructions.md \
+  https://raw.githubusercontent.com/tanghengzhi/skills/main/.github/copilot-instructions.md
+```
 
-## ☁️ 云服务与 DevOps / Cloud & DevOps
-
-| 技能 | 熟练度 | 等级 |
-|------|--------|------|
-| Docker | ████████████████████ | ⭐⭐⭐⭐⭐ |
-| Kubernetes | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| AWS | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| CI/CD (GitHub Actions) | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Nginx | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Linux | ████████████████████ | ⭐⭐⭐⭐⭐ |
-| Terraform | ████████░░░░░░░░░░░░ | ⭐⭐ |
-
----
-
-## 🤖 AI & 数据 / AI & Data
-
-| 技能 | 熟练度 | 等级 |
-|------|--------|------|
-| LLM / Prompt Engineering | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| LangChain | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| 数据分析 (Pandas/NumPy) | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| 机器学习基础 | ████████░░░░░░░░░░░░ | ⭐⭐ |
-
----
-
-## 🛠️ 工具 / Tools
-
-| 技能 | 熟练度 | 等级 |
-|------|--------|------|
-| Git / GitHub | ████████████████████ | ⭐⭐⭐⭐⭐ |
-| VS Code | ████████████████████ | ⭐⭐⭐⭐⭐ |
-| Vim | ████████████░░░░░░░░ | ⭐⭐⭐ |
-| Postman | ████████████████░░░░ | ⭐⭐⭐⭐ |
-| Figma | ████████░░░░░░░░░░░░ | ⭐⭐ |
-
----
-
-## 📈 等级说明 / Skill Levels
-
-| 等级 | 描述 |
-|------|------|
-| ⭐ | 入门 — 了解基本概念 |
-| ⭐⭐ | 基础 — 能完成简单任务 |
-| ⭐⭐⭐ | 中级 — 独立完成项目开发 |
-| ⭐⭐⭐⭐ | 高级 — 深入理解，能解决复杂问题 |
-| ⭐⭐⭐⭐⭐ | 精通 — 丰富经验，能指导他人 |
-
----
-
-## 📬 联系我 / Contact
-
-- 🐙 GitHub: [@tanghengzhi](https://github.com/tanghengzhi)
-
----
-
-> ⚡ *持续学习中... / Always learning...*
+Copilot will then apply the Laravel API development guidelines to all code suggestions in your project.
